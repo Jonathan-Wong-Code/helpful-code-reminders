@@ -8,4 +8,5 @@ useEffect(() => {
   }
 }, []);
 
-const enterRef = useRef < HTMLElement > null;
+// Ref should be set null by DEFAULTand given generic element type
+const enterRef = useRef<HTMLElement>(null);
